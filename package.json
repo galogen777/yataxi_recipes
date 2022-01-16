@@ -4,7 +4,8 @@
   "description": "PDF aggegator for recipes from ya.taxi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
   },
   "keywords": [],
   "author": "Oleg Shilovsky",
