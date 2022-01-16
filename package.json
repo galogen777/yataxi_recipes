@@ -1,15 +1,10 @@
 {
-  "name": "yataxi-recipes",
-  "version": "1.0.0",
-  "description": "PDF aggegator for recipes from ya.taxi",
-  "main": "index.js",
+  "name": "yataxi2pdf",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./yataxi2PDF/bin/www"
+    "start": "node bin/www"
   },
-  "keywords": [],
-  "author": "Oleg Shilovsky",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "cookie-parser": "~1.4.4",
