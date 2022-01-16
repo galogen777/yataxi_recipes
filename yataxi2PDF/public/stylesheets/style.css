@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+@media screen, print and (min-width: 480px) {
+  /*.project-name .col-print-1{ width: calc(1/12 * 100%); }*/
+  /*.project-name .col-print-2{ width: calc(2/12 * 100%); }*/
+  /*.col-print-9 {width:75%; float:left;}*/
+  .flex-wrap {
+    flex-wrap: nowrap !important;
+  }
+
+  div.container {
+    min-width: 480px !important;
+    max-width: 480px !important;
+    min-height: 2000px !important;
+    max-height: 2000px !important;
+  }
+}
+
+
+@media print {
+  div.urlListInput {
+    display: none;
+  }
+}
