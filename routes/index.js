@@ -28,7 +28,7 @@ router.post('/', async (req, res, next)=> {
   let recArray = [];
   let styleApplied = false;
 
-  let urls = req.body.urlsList.split("\r\n").filter((e)=>e.length>0);
+  let urls = req.body.urlsList.split("\r\n").filter((e)=>(e.length>0 && e.indexOf("http")>-1));
 
 
   // let urls = [
